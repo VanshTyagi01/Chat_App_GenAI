@@ -9,7 +9,6 @@ model = ChatGoogleGenerativeAI(model = 'gemini-2.5-flash')
 
 chat_history = [
     SystemMessage(content="You are a helpful assistant")
-
 ]
 
 while True:
